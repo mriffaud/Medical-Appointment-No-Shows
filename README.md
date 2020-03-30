@@ -9,27 +9,25 @@ Most customers attend their appointments on time, but nonetheless about 30% of t
 As part of the medical centre new initiative, we want to predict wether patients will attend their appointments or not and provide the medical centre with a list of patients to contact.
 
 # Data
-The dataset is available on Kaggle: [medical-appointment](https://www.kaggle.com/afflores/medical-appointment)
+The dataset is available on Kaggle: [medical-appointment](https://www.kaggle.com/joniarroba/noshowappointments)
 
-The datframe is composed of 61K datapoints, from 2017.01.01 to 2017.04.30 and 19 features
+The dataframe is composed of 110.527 medical appointments and 14 features
+
+For more information on the scholarship, please refer to this [Wikipedia page](https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia)
 
 ### Data Dictionary 
-* especialidad : what kind of specialist is going to. Ie dematologist, etc.
-* edad: Age
-* sexo: sex, 1: Male, 2: Female
-* reservamesd : discrete value for the month of the appointment, 1: Jan, 2: Feb…
-* reservamesc : continue value for the month of the appointment, the formula is COS(2reservamesdPi/12)
-* reservadiad : day of the week for the appointment, 1: Mon… 7: Sun
-* reservadiac : continous value for the day of the week, the formula is COS(2reservadiadPi/7)
-* reservahorad : discrete value for hour of the appointment
-* reservahorac : continous value for the hour of the appointment, the formula is COS(2reservahoradPi/24)
-* creacionmesd : discrete value for the month when the appointment was created
-* creacionmesc : continous value for the month when the appointment was created, the formula is COS(2creacionmesdPi/12)
-* creaciondiad : same as reservadiad, but considering the day when the appointment was created
-* creaciondiac : same as reservadiac, but considering the day when the appintment was created
-* creacionhorad : hour when the appointment was created
-* creacionhorac : continous value for the creacionhourd, the formula is COS(2creacionhoradPi/24)
-* latencia : number of days between the appointment and the date when it was created
-* canal : channel used for the creation of the apppointment, 1: call center, 2: Personal, 3: Web
-* tipo : type of appointment, 1: medical, 2: procedures
-* show : 0: no show, 1: show
+
+* PatientId: patient unique ID
+* AppointmentID: appointment unique ID
+* Gender: Male or Female
+* DataMarcacaoConsulta: the day of the actuall appointment, when they have to visit the doctor.
+* DataAgendamento: the day someone called or registered the appointment, this is before appointment of course.
+* Age: How old is the patient
+* Neighbourhood: where the appointment takes place
+* Scholarship: True of False
+* Hipertension: True or False
+* Diabetes: True or False
+* Alcoholism: True or False
+* Handcap: True or False
+* SMS_received: 1 or more messages sent to the patient
+* No-show : True or False
