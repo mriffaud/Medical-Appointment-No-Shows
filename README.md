@@ -29,5 +29,5 @@ For more information on the scholarship, please refer to this [Wikipedia page](h
 * Diabetes: True or False
 * Alcoholism: True or False
 * Handcap: True or False
-* SMS_received: 1 or more messages sent to the patient
+* SMS_received: True or False
 * No-show : True or False
