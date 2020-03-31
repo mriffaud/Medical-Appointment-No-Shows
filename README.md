@@ -20,8 +20,8 @@ For more information on the scholarship, please refer to this [Wikipedia page](h
 * PatientId: patient unique ID
 * AppointmentID: appointment unique ID
 * Gender: Male or Female
-* DataMarcacaoConsulta: the day of the actuall appointment, when they have to visit the doctor.
-* DataAgendamento: the day someone called or registered the appointment, this is before appointment of course.
+* ScheduledDay: the day someone called or registered the appointment, this is before appointment of course
+* AppointmentDay: the day of the actual appointment, when they have to visit the doctor
 * Age: How old is the patient
 * Neighbourhood: where the appointment takes place
 * Scholarship: True of False
