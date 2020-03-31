@@ -3,7 +3,7 @@
 
 # Problem Setting
 A medical centre offers various services that require customers to book appointments in advance – including medical appointments, small surgery, blood test... 
-Most customers attend their appointments on time, but nonetheless about 30% of the patient fail theirs appointments. A no-show is costly to the medical centre as it blocks diary slots for patients that otherwise may attend – and it also implies that the patient that no-shows misses out on an opportunity to look after their health. The medical centre wants to reduce the impact of no-shows by calling or texting in advance patients that are likely to no-show to remind them of the appointment or offer to reschedule.
+Most customers attend their appointments on time, but nonetheless about 20% of the patient fail theirs appointments. A no-show is costly to the medical centre as it blocks diary slots for patients that otherwise may attend – and it also implies that the patient that no-shows misses out on an opportunity to look after their health. The medical centre wants to reduce the impact of no-shows by calling or texting in advance patients that are likely to no-show to remind them of the appointment or offer to reschedule.
 
 ### Task
 As part of the medical centre new initiative, we want to predict wether patients will attend their appointments or not and provide the medical centre with a list of patients to contact.
