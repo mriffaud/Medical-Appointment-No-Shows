@@ -11,7 +11,7 @@ As part of the medical centre new initiative, we want to predict whether patient
 # Data
 The dataset is available on Kaggle: [medical-appointment](https://www.kaggle.com/joniarroba/noshowappointments)
 
-The dataframe is composed of 110.527 medical appointments and 14 features
+The dataframe is composed of 110,527 medical appointments and 14 features
 
 For more information on the scholarship, please refer to this [Wikipedia page](https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia)
 
