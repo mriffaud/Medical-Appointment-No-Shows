@@ -7,7 +7,7 @@ Most customers attend their appointments on time, but nonetheless about 20% of t
 ---
 ## Table of Content
 1. [ Data ](#data)
-2. [ Basic Date Information ](#Information)
+2. [ Basic Data Information ](#Information)
 3. [ Data Cleansing ](#Cleansing)
 4. [ Exploratory Data Analysis ](#Analysis)
 5. [ Creating a Model for Appointments No Show ](#model)
@@ -40,7 +40,7 @@ For more information on the scholarship, please refer to this [Wikipedia page](h
 
 ---
 <a name="Information"></a>
-## 2. Basic Date Information
+## 2. Basic Data Information
 
 This section will provide basic informtion about the data.
 
